@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Divider</title>
+   
+</head>
+
+<body>
+    <button id="theme-btn"><i class="fa-solid fa-moon fa-xl" id="theme-i"></i></button>
+    <div id="form-container">
+        <form>
+            <!--Username Field-->
+            <input type="text" pattern="[A-Za-z /s]*" class="username-input" id="username" name="username"
+            placeholder="Enter username">
+            <label id="uname">Name:</label>
+            <!--E-mail Field-->
+            <input type="mail"  class="f-input" id="email" name="email" placeholder="Enter email">
+            <label  id="l-email">E-mail:</label>
+            <!--Password Field-->
+            <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            title="Must contain atleast one Capital-Case and Number and Special Character and password must be atleast 8 characters or long"
+            id="psw" name="psw" placeholder="Enter password" required >
+            <label id="pw">Password:</label>
+            <!--Confrim Password Field-->
+            <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must be same as password"
+            id="cpsw" name="cpsw" placeholder="Confirm password" required>
+            <label id="cpw">Confirm Password:</label>
+            <!--Submit Button-->
+            <button type="submit" id="submit-btn">submit</button>
+        </form>
+        <p id="para-uname"></p>
+        <p id="para-email"></p>
+        <p id="para-psw"></p>
+        <p id="para-cpsw"></p>
+        <i class="fa-regular fa-circle-check fa-lg" id="i-cpsw"></i>
+       <button id="btn-psw"><i class="fa-solid fa-eye-slash fa=lg" id="i-psw"></i></button>
+    </div>
+
+</body>
+<script lang="javascript" type="text/javascript" src="script.js">
+    /*
+        Code here:
+    */
+</script>
+
+</html>
