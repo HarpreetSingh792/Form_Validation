@@ -7,9 +7,8 @@
     margin:0;
 }
 body{
-    background-image: url("https://images.pexels.com/photos/1329711/pexels-photo-1329711.jpeg?auto=compress&cs=tinysrgb&w=1368");
-    background-repeat:no-repeat;
-    box-sizing: border-box;
+    background-image: url("https://img.freepik.com/free-photo/aerial-beautiful-shot-seashore-with-hills-background-sunset_181624-24143.jpg?w=740&h=1366&t=st=1672776570~exp=1672777170~hmac=f786e0eab3ada7308499eace89f626c7f86781bca5fdb76c9fe69a77ddcac368");
+    background-size: cover;
 }
 #theme-btn{
     cursor: pointer;
@@ -178,7 +177,7 @@ input:focus{
 {
     width: 250px;
     position: absolute;
-    bottom: 366px;
+    bottom: 360px;
     left: 60px;
     letter-spacing: 0.4px;
     z-index: 5;
@@ -272,5 +271,193 @@ input:focus{
      background:rgb(25, 46, 25);
      border: solid rgb(25, 46, 25);
      color:white;
+}
+@media (max-width:4180px){
+    body{
+        background-image: url("https://img.freepik.com/free-photo/aerial-beautiful-shot-seashore-with-hills-background-sunset_181624-24143.jpg?w=740&h=1366&t=st=1672776570~exp=1672777170~hmac=f786e0eab3ada7308499eace89f626c7f86781bca5fdb76c9fe69a77ddcac368");
+        background-size: cover;
+    }
+    input{
+        width: 300px;
+    }
+    #form-container{
+        margin:830px auto;
+        width:30%;
+       
+    }
+    #btn-psw
+    {
+      
+        left:680px;
+    }
+    #theme-btn{
+        left:75vw;
+        top:12vh;
+        height:70px;
+        width:70px;
+    }
+    
+    #para-uname
+    {
+        left:12vw;
+    }
+    #para-email
+    {
+        left:12vw;
+    }
+    #para-psw
+    {
+        left:12vw;
+    }
+    #para-cpsw
+    {
+        left:12vw;
+    }
+    
+}
+
+@media (max-width:2166px){
+    body{
+        background-image: url("https://img.freepik.com/free-photo/aerial-beautiful-shot-seashore-with-hills-background-sunset_181624-24143.jpg?w=740&h=1366&t=st=1672776570~exp=1672777170~hmac=f786e0eab3ada7308499eace89f626c7f86781bca5fdb76c9fe69a77ddcac368");
+        background-size: fit;
+        background-repeat: no-repeat;
+    }
+    input{
+        width: 300px;
+    }
+    #form-container{
+        margin:170px auto;
+        width:25%;
+    }
+    #btn-psw
+    {
+      
+        left:340px;
+    }
+    #theme-btn{
+        left:75vw;
+        top:7vh;
+        height:30px;
+        width:30px;
+    }
+    #para-uname
+    {
+        left:6vw;
+    }
+    #para-email
+    {
+        left:6vw;
+    }
+    #para-psw
+    {
+        left:6vw;
+    }
+    #para-cpsw
+    {
+        left:6vw;
+    }
+    
+}
+
+@media (max-width:1500px){
+    body{
+        background-image: url("https://img.freepik.com/free-photo/aerial-beautiful-shot-seashore-with-hills-background-sunset_181624-24143.jpg?w=740&h=1366&t=st=1672776570~exp=1672777170~hmac=f786e0eab3ada7308499eace89f626c7f86781bca5fdb76c9fe69a77ddcac368");
+        background-size: cover;
+    }
+    input{
+        width: 300px;
+    }
+    #form-container{
+        margin:130px auto;
+        width:24%;
+    }
+    #btn-psw
+    {
+      
+        left:260px;
+    }
+
+    #theme-btn{
+        height:20px;
+        width:20px;
+    }
+    
+}
+
+@media (max-width:900px){
+    body{
+        background-image: url("https://img.freepik.com/free-photo/aerial-beautiful-shot-seashore-with-hills-background-sunset_181624-24143.jpg?w=740&h=1366&t=st=1672776570~exp=1672777170~hmac=f786e0eab3ada7308499eace89f626c7f86781bca5fdb76c9fe69a77ddcac368");
+        background-size: cover;
+    }
+    input{
+        width: 300px;
+    }
+    #form-container{
+        margin:130px auto;
+        width:50%;
+    }
+    #btn-psw
+    {
+      
+        left:307px;
+    }
+
+    #theme-btn{
+        height:30px;
+        width:30px;
+    }
+}
+@media (max-width:500px){
+    body{
+        background-image: url("https://img.freepik.com/free-photo/aerial-beautiful-shot-seashore-with-hills-background-sunset_181624-24143.jpg?w=740&h=1366&t=st=1672776570~exp=1672777170~hmac=f786e0eab3ada7308499eace89f626c7f86781bca5fdb76c9fe69a77ddcac368");
+        background-size: cover;
+    }
+    input{
+        width:100%;
+    }
+    #form-container{
+        margin:130px auto;
+        width:80%;
+    }
+    #theme-btn{
+        left:84vw;
+        top:5vh;
+      
+       
+    }
+    #theme-i{
+        height: 5px;
+        width: 5px;
+        top:-1px;
+        left: -4px;
+
+      
+    }
+    #btn-psw
+    {
+      
+        left:250px;
+    }
+    #para-uname
+    {
+        left:7vw;
+    }
+    #para-email
+    {
+        left:7vw;
+    }
+    #para-psw
+    {
+        left:7vw;
+    }
+    #para-cpsw
+    {
+        left:7vw;
+    }
+    #theme-btn{
+        height:20px;
+        width:20px;
+    }
+    
 }
 
